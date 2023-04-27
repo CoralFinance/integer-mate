@@ -3,11 +3,11 @@
 [package]
 name = "IntegerMate"
 version = "0.0.1"
-published-at = "0x6e1392463addfbb3b6559666411ddaf30bd0c19784a0fc45b819623e05ffca9d"
+published-at = "0x18a7c723bc6d8d3e1257e10d4229f8620fe58642e4f2273f666f1a016d124a5b"
 
 [dependencies]
-Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "testnet-0.32.0" }
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "testnet-0.33.1" }
 
 [addresses]
 sui =  "0x2"
-integer_mate = "0x69f09a3a8441cb9ec665702b537d7eb23e5302a48a4283a9a9270e81274ccefa"
+integer_mate = "0x18a7c723bc6d8d3e1257e10d4229f8620fe58642e4f2273f666f1a016d124a5b"
